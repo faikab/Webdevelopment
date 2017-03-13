@@ -1,0 +1,22 @@
+section  {
+ 	box-sizing: border-box
+	margin: 0;
+	padding: 0;
+	padding: 10px 5px 10px 5px;  
+	border: 5px solid black;
+	width: 300px; 
+	background-color: gray;
+ }
+
+ #beef {
+	background-color: blue;
+ }
+
+#chicken {
+	background-color: red;
+ }
+ #seafood {
+	background-color: green;
+ }
+
+ 
