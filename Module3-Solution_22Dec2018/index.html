@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,14 +20,11 @@
     <header>
       <nav id="header-nav" class="navbar navbar-deafault">   
         <div class="container">
-           <div class="navbar-header">     <!-- Brand and toggle get grouped for better mobile display -->
-
-
-              
+           <div class="navbar-header">     <!-- Brand and toggle get grouped for better mobile display -->              
               <div class="navbar-brand">
                 <h1>Food, LLC</h1>
               </div>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                   <!-- navbar toggle controls positon of button, collapsed tells a bootstrap plugin to keep the menu collapsed until pressed. data- commands are HTML5 api attributes that allow using javascript plugin in a standardized way, aria-expanded is for screen readers [not covered in this course] */
                   -->
 
@@ -36,6 +33,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+          </div> <!-- end of navbar-header div -->
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#"> 
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a> 
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a> 
+            
 
           </div>
         </div> <!-- end of contaier div-->         
